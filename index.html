@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercars Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <video autoplay muted loop class="background-video">
+            <source src="bg_vid.mp4" type="video/mp4">
+        </video>
+        <div class="header-content">
+            <h1>Supercars Showcase</h1>
+            <p>Discover the speed, innovation, and luxury of the world's greatest supercars.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#ferrari">Ferrari</a></li>
+            <li><a href="#lamborghini">Lamborghini</a></li>
+            <li><a href="#bugatti">Bugatti</a></li>
+            <li><a href="#mclaren">McLaren</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="car" id="ferrari">
+            <img style="max-width: 750px; max-height: 500px" src="https://www.supercars.net/blog/wp-content/uploads/2020/07/731493-scaled.jpg" alt="Ferrari LaFerrari">
+            <h2>Ferrari LaFerrari</h2>
+            <p>The Ferrari LaFerrari combines cutting-edge hybrid technology with Ferrari's trademark performance and design.</p>
+            <div class="specs">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Engine: 6.3L V12 + Electric Motor</li>
+                    <li>Horsepower: 950 HP</li>
+                    <li>Top Speed: 217 mph</li>
+                    <li>Price: $1.5 million</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <a href="https://en.wikipedia.org/wiki/LaFerrari" target="_blank" class="btn learn-more">Learn More</a>
+                <a href="https://www.jamesedition.com/cars/ferrari/laferrari" target="_blank" class="btn buy-now">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="car" id="lamborghini">
+            <img style="max-width: 750px; max-height: 500px" src="https://wallpapersmug.com/download/1920x1080/d90da8/lamborghini-aventador-svj-2018-4k.jpg" alt="Lamborghini Aventador">
+            <h2>Lamborghini Aventador</h2>
+            <p>With a roaring V12 engine and iconic scissor doors, the Aventador embodies Lamborghini's legacy of innovation.</p>
+            <div class="specs">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Engine: 6.5L V12</li>
+                    <li>Horsepower: 769 HP</li>
+                    <li>Top Speed: 217 mph</li>
+                    <li>Price: $500,000</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <a href="https://en.wikipedia.org/wiki/Lamborghini_Aventador" target="_blank" class="btn learn-more">Learn More</a>
+                <a href="https://www.jamesedition.com/cars/lamborghini/aventador" target="_blank" class="btn buy-now">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="car" id="bugatti">
+            <img style="max-width: 750px; max-height: 500px" src="https://images4.alphacoders.com/114/1145991.jpg" alt="Bugatti Chiron">
+            <h2>Bugatti Chiron</h2>
+            <p>The Bugatti Chiron is a marvel of engineering, offering unparalleled speed and luxury at the pinnacle of automotive design.</p>
+            <div class="specs">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Engine: 8.0L Quad-Turbo W16</li>
+                    <li>Horsepower: 1,479 HP</li>
+                    <li>Top Speed: 261 mph</li>
+                    <li>Price: $3 million</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <a href="https://en.wikipedia.org/wiki/Bugatti_Chiron" target="_blank" class="btn learn-more">Learn More</a>
+                <a href="https://www.jamesedition.com/cars/bugatti/chiron" target="_blank" class="btn buy-now">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="car" id="mclaren">
+            <img style="max-width: 750px; max-height: 500px" src="https://images8.alphacoders.com/511/511410.jpg" alt="McLaren P1">
+            <h2>McLaren P1</h2>
+            <p>The McLaren P1 is the ultimate hybrid hypercar, delivering both extreme performance and remarkable efficiency.</p>
+            <div class="specs">
+                <h3>Specifications</h3>
+                <ul>
+                    <li>Engine: 3.8L Twin-Turbo V8 + Electric Motor</li>
+                    <li>Horsepower: 903 HP</li>
+                    <li>Top Speed: 217 mph</li>
+                    <li>Price: $1.15 million</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <a href="https://en.wikipedia.org/wiki/McLaren_P1" target="_blank" class="btn learn-more">Learn More</a>
+                <a href="https://www.jamesedition.com/cars/mclaren/p1" target="_blank" class="btn buy-now">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="btn submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Supercars Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
